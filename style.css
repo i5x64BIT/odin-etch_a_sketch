@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    height: 100vh;
+    width: 100vw;
+}
+.page-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+}
+h1{
+    font-size: 36px;
+}
+.main-container{
+    display: flex;
+    width: 70%;
+    height: 100%;
+}
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: pink; /* only for test*/
+    flex: 7;
+}
+.controls{
+    flex: 3;
+}
+.board > div{
+    background-color: blue;
+    flex: auto;
+}
+.board > div:hover{
+    background-color: red;
+}
