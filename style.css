@@ -17,7 +17,6 @@ h1{
     font-size: 36px;
 }
 .main-container{
-    display: flex;
     width: 70%;
     height: 100%;
 }
@@ -25,10 +24,10 @@ h1{
     display: flex;
     flex-wrap: wrap;
     background-color: pink; /* only for test*/
-    flex: 7;
+    height: 512px;
+    width: 512px;
 }
 .controls{
-    flex: 3;
 }
 .board > div{
     background-color: blue;
