@@ -88,8 +88,14 @@ footer{
     align-items: center;
 }
 
-@media (max-width: 450px){
+@media (max-width: 1150px){
     .main-container{
-        flex-direction: column-reverse;
+        flex-direction: column;
+        height: none;
+        width: none;
+    }
+    .controls{
+        width: 400px;
+        height: 20%;
     }
 }
