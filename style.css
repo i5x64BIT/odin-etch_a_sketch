@@ -55,7 +55,7 @@ h1{
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
 }
-.controls #display-btn-apply{
+.controls button{
     background-color: rgb(120, 174, 206);
     border:solid white 1px;
     padding: 10px 30px;
@@ -68,7 +68,7 @@ h1{
     transition: 80ms;
     cursor: pointer;
 }
-.controls #display-btn-apply:hover{
+.controls button:hover{
     background-color: rgb(120, 174, 206, .5);
 }
 .board > div{
@@ -96,6 +96,7 @@ footer{
     }
     .controls{
         width: 400px;
-        height: 20%;
+        height: fit-content;
+        padding: 20px;
     }
 }
